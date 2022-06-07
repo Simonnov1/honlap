@@ -1,0 +1,14 @@
+.nap{
+    color: red;
+    font-style: italic;
+}
+#kicsi{
+    size: 30%;
+}
+#pic{
+    border: 2px;
+}
+.grid-container{
+    display: grid;
+    width: 50px;
+}
