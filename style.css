@@ -10,5 +10,11 @@
 }
 .grid-container{
     display: grid;
-    width: 50px;
+    grid-template-columns: 12px 12px 12px;
+    border-color: black; 
+    gap: 6px; 
+    justify-content: center;
+}
+.grid-item{
+    justify-self: right;
 }
