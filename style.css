@@ -12,9 +12,25 @@
     display: grid;
     grid-template-columns: 12px 12px 12px;
     border-color: black; 
-    gap: 6px; 
+    gap: 2px; 
     justify-content: center;
 }
 .grid-item{
     justify-self: right;
+    border: 1px solid;
+}
+.brick{
+    width: 50%;
+    justify-self: center;
+    position: relative;
+    left: 25%;
+}
+.cim{
+    height: 13px;
+    font-family: 'Arial';
+}
+#box{
+    border: 1px solid;
+    width: fit-content;
+    height: fit-content;
 }
