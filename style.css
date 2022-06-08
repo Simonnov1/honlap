@@ -1,9 +1,6 @@
 .nap{
-    color: red;
+    color: rgb(255, 0, 0);
     font-style: italic;
-}
-.cim{
-    height: 13px;
 }
 #kicsi{
     size: 30%;
@@ -15,9 +12,44 @@
     display: grid;
     grid-template-columns: 12px 12px 12px;
     border-color: black; 
-    gap: 6px; 
+    gap: 2px; 
     justify-content: center;
 }
 .grid-item{
     justify-self: right;
+    border: 1px solid;
+}
+.brick{
+    width: 50%;
+    justify-self: center;
+    position: relative;
+    left: 25%;
+}
+.cim{
+    font-family: 'Arial';
+}
+.cim1{
+    height: 13px;
+    font-family: 'Arial';
+}
+#box{
+    border: 1px solid;
+    width: fit-content;
+    height: fit-content;
+}
+th, td {
+    padding: 5px;
+}
+table{
+    border-spacing: 2px;
+}
+li{
+    font-size: 120%;
+    font-family: Georgia;
+}
+#box :hover{
+    background-color: crimson;
+}
+#kep{
+    size: 100px;
 }
