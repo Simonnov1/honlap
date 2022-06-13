@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>  
     <style media="all">
-    
         body{
-            background-color: lightgrey;
+            background-image: linear-gradient(lightgreen, lightcyan);
         }
     </style>
     <title>A kutyám weboldala</title>
@@ -18,14 +18,19 @@
         <header>
             <center><h1 class="cim" id="opening" >Vacak, a kutyám</h1></center>
         </header>
+        <div id="navbar"><a href="#box">A történetéhez</a> <a href="#link">Az olda aljára</a> <a href="#kep">A képhez</a> <a href="#etetes">Az etetéséhez</a></div>
         <h1 class="cim1">Ez az oldal a kutyámról szól</h1>
         <h1 class="cim1">A neve Vacak</h1>
-        <p class="cim1">Lesz benne szó az etetéséről, szokásairól, és történetéről</p>
+        <h2>Lesz benne szó az etetéséről, történetéről és szokásairól</h2>
         <h2>Ez vacak</h2>
-        <img id="kep" src="C:\Users\Simon\Documents\VSCode\honlap\honlap\Képek\20220608_192920.jpg" width=205 height=250 alt="Vacak képe">
+        <img id="kep" src="Képek\20220608_192920.jpg" width=205 height=250 alt="Vacak képe"> <p></p>
+        <button onclick="ugat()">Ugasson!</button>
         <hr style="width:50%;text-align:left;margin-left:0">
+        <center><div id="box">Kb. 7 éve úgy döntötünk, hogy szerzünk egy kutyát. Elmentünk egy kutyamenhelyre, ahol megnéztük, hogy mi a választék.
+            A választásunk Vacakra esett, egy kb. 1 hónapos kiskutyára. Azonnal beleszerettünk, és hazavittük.
+             Az első pár hónapban nagyon félős volt, ezért nem jött közel hozzánk, de végül barátságosabb lett.</div></center>
         <h1>Kutyaetetés</h1>
-        <table border="1">
+        <table border="1" id="etetes">
             <tr>   
                 <th colspan="2">Vacak etetési rendje</th>
             </tr>
@@ -58,32 +63,29 @@
                 <td>Kap enni</td>
             </tr>
         </table>
-
         <a href="https://www.azenkutyam.hu/apolas/mikor-kell-enni-adni-a-kutyanak/" target="_blank">Kutyaetetés egy weblapról</a><p></p>
         <a href="https://petchef.hu/gazdiknak/kutya-etetese-minden-amit-tudnod-kell/" >Kutyaetetés egy másik weblapról</a>
         <h2 id="kicsi">Így a két forrásból ki lehet deríteni a legjobb kutyaetetési módszereket!</h2>
-
-        <center><div id="box">Doboz, de nagyobb</div></center>
-
+        <h1>Hogyan került hozzánk?</h1>
+        
+            <h2>Évente el kell vinni őt állatorvoshoz, íme néhány dolog amit csinálnak ott vele</h2>
         <div class="grid-container">
-            <div class="grid-item">1</div>
-            <div class="grid-item">2</div>
-            <div class="grid-item">3</div>
-            <div class="grid-item">4</div>
-            <div class="grid-item">5</div>
-            <div class="grid-item">6</div>
-            <div class="grid-item">7</div>
-            <div class="grid-item">8</div>
-            <div class="grid-item">9</div>
+            <div class="grid-item">Kap oltást</div>
+            <div class="grid-item">Megmérik a súlyát</div>
+            <div class="grid-item">Kap gyógyszert</div>
+            <div class="grid-item">Megmérik a hőmérsékletét</div>
         </div>
         <h1>Itt van Vacak néhány szokása:</h1>
+        <h2>Jók és rosszak egyaránt</h2>
         <ul>
             <li>Megugatja a járókelőket</li>
-            <li>Felássa a kertet, mert azt hiszi van  valami a föld alatt ezzel elpusztítva a füvet</li>
+            <li>Felkaparja a földet, mert azt hiszi, van valami a föld alatt, ezzel elpusztítva a füvet</li>
             <li>Amikor csak esélye van rá, megpróbál megszökni</li>
-            <li>Néha túlságosan beleéli magát a játékba és odakap a játéktársának a kézének az irányába</li>
+            <li>Néha túlságosan beleéli magát a játékba, és odakap a játszótársának kezéhez</li>
+            <li>Ha a redőnyöket felhúzzuk/leengedjük, akkor megugatja őket</li>
         </ul>
-        <a href="#opening" id="link">Go back</a>
+        <h2>Ezzel a gombbal vissza lehet meni az elejére: <a href="#opening" id="link">Az oldal tetejére</a></h2>
+        
     </body>
 </main>
 </html>
