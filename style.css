@@ -2,21 +2,15 @@
     color: red;
     font-style: italic;
 }
-#kicsi{
-    size: 30%;
-}
-#pic{
-    border: 2px;
-}
 .grid-container{
     display: grid;
-    grid-template-columns: 12px 12px 12px;
+    grid-template-columns: 103px 175px;
     border-color: black; 
     gap: 2px; 
-    justify-content: center;
+    justify-content: left;
 }
 .grid-item{
-    justify-self: right;
+    justify-self: center;
     border: 1px solid;
 }
 .brick{
@@ -26,11 +20,64 @@
     left: 25%;
 }
 .cim{
+    font-family: 'Arial';
+    margin-top: px;
+}
+.cim1{
     height: 13px;
     font-family: 'Arial';
+    margin-bottom: 15px;
 }
 #box{
-    border: 1px solid;
+    border: 3px blueviolet solid;
     width: fit-content;
     height: fit-content;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px ;
+    border-radius: 15px;
+    transition: width 2s;
+    background-color: purple;
+    color: burlywood;
+}
+th, td {
+    padding: 5px;
+}
+table{
+    border-spacing: 2px;
+    margin-bottom: 20px;
+}
+li{
+    font-size: 130%;
+    font-family: Georgia;
+    text-shadow: 1px 1px lightcyan;
+}
+#navbar{
+    position: sticky;
+   top: 1px;
+    background-color: lightgreen;
+    width: fit-content;
+    margin-top: 35px;
+    justify-content: right;
+    font-size: 110%;
+}
+.tér{
+    width: 150px;
+}
+img { 
+	transition: all 0.5s ease-in-out; 
+}
+img:hover { 
+    	transform: scale(90%); 
+    }
+#box { 
+    transition: all 0.5s ease-in-out; 
+}
+#box:hover { 
+        transform: scale(111%); 
+}
+button{
+    background-color: orange;
+    color: purple;
+    border-radius: 15px;
 }
